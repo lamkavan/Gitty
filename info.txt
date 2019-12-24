@@ -1,0 +1,26 @@
+Goal - create a program that can read OpenLiberty issues from github and determine who should be assigned to work on them
+
+    1.  query github.com/OpenLiberty for issues
+        - use the github REST API 
+        - ask around internally - someone may already have written a client for this.  If you can't find an existing client, make one!
+        - write the issue text, and who was assigned to the issue to a file git_issues.txt in CSV format
+        
+    2.  get ready to write some python code
+        - we'll use jupyter notebooks to make it easy to write and iterate
+        - you can get jupyter notebooks running locally as follows
+            mkdir ~/notebooks
+            chmod ugo+w ~/notebooks
+            docker run -u $(id -u):$(id -g) -it --rm -v ~/notebooks:/tf/notebooks -p 8888:8888 tensorflow/tensorflow:1.13.1-py3-jupyter
+        - Open the URL from the docker output in a browser (eg. http://127.0.0.1:8888/?token=1e5bb3e53255f0c5ae706f00901ac7e574c449f02236c9b5)
+        - Create a new project: New / Python 3
+        - python tutorial: https://www.w3schools.com/python/
+
+    3.  write a function, in python, that can read in your data from git_issues.txt and parse it
+        - take a look at https://www.kaggle.com/guichristmann/lstm-classification-model-with-word2vec/notebook
+        - notice the use of pandas module that has read_csv
+
+    4.  read the code at https://www.kaggle.com/guichristmann/lstm-classification-model-with-word2vec/notebook
+        - read up on what an LSTM is
+        - be able to explain what is going on, at a high level
+
+    5.  more to come...
