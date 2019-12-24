@@ -1,0 +1,17 @@
+{
+  "name": "Gitty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: No test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Kavan Lam and Nimrah Gill",
+  "license": "ISC"
+}

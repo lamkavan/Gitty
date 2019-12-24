@@ -1,0 +1,84 @@
+/*
+IBM Summer Project 2019
+Kavan Lam and Nimrah Gill
+July 4, 2019
+--- Styling for Gitty webpage ---
+ */
+
+body{
+	background-color: #303132;
+}
+
+h1{
+	color: white;
+	font-size: 550%;
+}
+
+h2{
+	color: #2F90E8;
+	font-size: 310%;
+	text-align: center;
+}
+
+h3{
+	color: #F4D03F;
+	font-size: 310%;
+	text-align: center;
+}
+
+h4{
+	color: #229954;
+	font-size: 310%;
+	text-align: center;
+}
+
+#page_title{
+	text-align: center;
+	font-size: 500%;
+}
+
+#buttons{
+	text-align: center;
+}
+
+.page_text{
+	text-align: center;
+	font-size: 120%;
+}
+
+#master_container{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#nav_button{
+	width: 150px;
+	height: 60px;
+	margin-top: 30px;
+}
+
+#content_box{
+	background-color: #ECF0F1;
+  border: 7px solid #B2BABB;
+  padding: 50px;
+  margin: 30px;
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+#page_buttons{
+	margin-left: 20vw;
+	width: 60%;
+}
+
+#issue_text_box{
+	margin-left: 20vw;
+	width: 60%;
+}
+
+.header_links{
+	float: right;
+}
